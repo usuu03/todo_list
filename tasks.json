@@ -1,0 +1,51 @@
+[
+   {
+      "id": 1,
+      "description": "Work on your Python Skills",
+      "status": "in-progress",
+      "createdAt": "2024-09-01 12:37:06.374048",
+      "updatedAt": "2024-09-01 13:19:58.986655"
+   },
+   {
+      "id": 2,
+      "description": "Build CodePair project using Django",
+      "status": "TO DO",
+      "createdAt": "2024-09-01 12:37:29.131325",
+      "updatedAt": "2024-09-01 12:41:36.623766"
+   },
+   {
+      "id": 3,
+      "description": "Keep applying for Internship, Graduate, and Junior Roles",
+      "status": "TO DO",
+      "createdAt": "2024-09-01 12:38:14.148572",
+      "updatedAt": "2024-09-01 12:38:14.148594"
+   },
+   {
+      "id": 5,
+      "description": "Start Packing for return to the United Kingdom",
+      "status": "TO DO",
+      "createdAt": "2024-09-01 12:38:49.809295",
+      "updatedAt": "2024-09-01 12:38:49.809346"
+   },
+   {
+      "id": 6,
+      "description": "Read Noughts and Crosses",
+      "status": "TO DO",
+      "createdAt": "2024-09-01 12:39:09.257940",
+      "updatedAt": "2024-09-01 12:39:09.257950"
+   },
+   {
+      "id": 7,
+      "description": "Save Up for AWS CCP exam",
+      "status": "DONE",
+      "createdAt": "2024-09-01 12:39:27.654638",
+      "updatedAt": "2024-09-01 13:23:21.871038"
+   },
+   {
+      "id": 7,
+      "description": "Shower",
+      "status": "TO DO",
+      "createdAt": "2024-09-01 13:22:09.408740",
+      "updatedAt": "2024-09-01 13:22:09.408783"
+   }
+]
