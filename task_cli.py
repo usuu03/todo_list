@@ -47,3 +47,40 @@ def update_task(task_id, new_description):
             return
         else:
             print(f"Task with ID: {task_id} not found, please try again")
+
+# Function to delete a task
+
+# function delete_task(id):
+# load the tasks
+# filter out the task with the given id from the list
+# save the updated list of tasks
+# print success message with the task id
+
+def delete_task(taks_id):
+    tasks = load_tasks()
+    tasks = [task for task in tasks if task['id'] != taks_id]
+    save_task(tasks)
+    print(f"Successfully deleted task with ID: {taks_id}")
+# Function to mark a task as in progress
+
+# function mark_in_progress(id):
+# load the tasks
+# find the task with the given id
+# if task is found:
+# update the task's status to 'in-progress' and updatedAt
+# save the updated list of tasks
+# print success message with the task id
+# else:
+# print task not found message
+
+# Function to mark a task as done
+
+# function mark_done(id):
+# load the tasks
+# find the task with the given id
+# if task is found:
+# update the task's status to 'done' and updatedAt
+# save the updated list of tasks
+# print success message with the task id
+# else:
+# print task not found message
