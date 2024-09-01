@@ -3,4 +3,11 @@ import os
 from datetime import datetime
 
 
-file_path = "tasks.json"
+FILE_TASKS = "tasks.json"
+
+def load_tasks():
+    if not os.path.exists(FILE_TASKS):
+        return []
+    with open(FILE_TASKS, 'r') as file:
+        return json.load(file)
+        
