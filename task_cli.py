@@ -36,15 +36,14 @@ def add_task(description):
     print(f"Task has been successfully saved with ID: {task_id}")
 
 # Function to update a task
-
-# function update_task(id, new_description):
-# load the tasks
-# find the task with the given id
-# if task is found:
-# update the task's description and updatedAt
-# save the updated list of tasks
-# print success message with the task id
-# else:
-# print task not found message    
-# def save_tasks():
-    
+def update_task(task_id, new_description):
+    tasks = load_tasks()
+    for task in tasks:
+        if task["id"] == task_id:
+            task["description"] = new_description
+            task["updatedAt"] = str(datetime.now())
+            save_task(tasks)
+            print(f"You have successfully updated the task with ID: {task_id}")
+            return
+        else:
+            print(f"Task with ID: {task_id} not found, please try again")
